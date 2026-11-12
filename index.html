@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dulce Ñame</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="header">
+  <div class="container nav-wrap">
+    <a href="#inicio" class="logo">🍇 Dulce Ñame</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="menu" id="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#producto">Producto</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- INICIO -->
+  <section class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <span class="tag">Mermelada artesanal</span>
+        <h1>Dulce <span>Ñame</span></h1>
+        <p class="slogan">“El sabor natural que nace de nuestra tierra”</p>
+        <a href="#producto" class="btn" id="btnConocer">Conoce nuestro producto</a>
+      </div>
+
+      <div class="hero-img reveal">
+        <div class="circle"></div>
+        <svg class="jar" viewBox="0 0 200 270" role="img" aria-label="Frasco de mermelada de ñame Dulce Ñame">
+          <defs>
+            <linearGradient id="jam" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#8b5fbf"/>
+              <stop offset="1" stop-color="#4a1f73"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="100" cy="259" rx="72" ry="8" fill="#3d1a5c" opacity=".15"/>
+          <path d="M42 66H158Q172 66 172 82V222Q172 248 146 248H54Q28 248 28 222V82Q28 66 42 66Z" fill="url(#jam)"/>
+          <path d="M42 66H158Q172 66 172 82V222Q172 248 146 248H54Q28 248 28 222V82Q28 66 42 66Z" fill="none" stroke="#eadff7" stroke-width="4"/>
+          <rect x="37" y="82" width="9" height="140" rx="4.5" fill="#fff" opacity=".28"/>
+          <rect x="48" y="112" width="104" height="92" rx="12" fill="#fbf5e9"/>
+          <text x="100" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#5b2a86" letter-spacing="2">DULCE</text>
+          <text x="100" y="163" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#5b2a86" letter-spacing="2">ÑAME</text>
+          <path d="M70 172H130" stroke="#c9b3e8" stroke-width="2"/>
+          <text x="100" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8a6a4a" letter-spacing="1">MERMELADA ARTESANAL</text>
+          <path d="M34 52Q100 36 166 52L177 76Q100 62 23 76Z" fill="#c9b3e8"/>
+          <rect x="44" y="28" width="112" height="28" rx="9" fill="#b8864b"/>
+          <rect x="50" y="33" width="100" height="6" rx="3" fill="#fff" opacity=".25"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE EL EMPRENDIMIENTO -->
+  <section class="section" id="nosotros">
+    <div class="container">
+      <div class="title reveal">
+        <span>Sobre nosotros</span>
+        <h2>Una idea que nace de la tierra</h2>
+      </div>
+      <p class="intro reveal">
+        <strong>Dulce Ñame</strong> es un emprendimiento que elabora mermelada artesanal a base de ñame,
+        un tubérculo tradicional de nuestra región. Nació en la cocina de casa, con la idea de convertir
+        un alimento cotidiano en un dulce diferente, natural y lleno de identidad.
+      </p>
+      <div class="cards">
+        <article class="card reveal"><div class="icon">🌱</div><h3>Nuestra historia</h3><p>Al ver el color y la textura suave del ñame cocido, nos preguntamos: ¿y si lo convertimos en mermelada?</p></article>
+        <article class="card reveal"><div class="icon">🎯</div><h3>Nuestro objetivo</h3><p>Dar a conocer el ñame con una propuesta innovadora y ofrecer un producto artesanal de sabor único.</p></article>
+        <article class="card reveal"><div class="icon">🤝</div><h3>Nuestro compromiso</h3><p>Valorar los productos de nuestra tierra y elaborar cada frasco con cuidado y dedicación.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- INGREDIENTES Y CARACTERÍSTICAS -->
+  <section class="section alt" id="producto">
+    <div class="container">
+      <div class="title reveal">
+        <span>Nuestro producto</span>
+        <h2>Ingredientes y características</h2>
+      </div>
+      <div class="two-col">
+        <div class="box reveal">
+          <h3>Ingredientes</h3>
+          <ul class="list">
+            <li>🍠 Ñame fresco</li>
+            <li>🍬 Azúcar</li>
+            <li>🍋 Jugo de limón</li>
+            <li>🌿 Canela</li>
+          </ul>
+        </div>
+        <div class="box reveal">
+          <h3>Características</h3>
+          <ul class="list">
+            <li>✔ Elaboración artesanal</li>
+            <li>✔ Color lila natural</li>
+            <li>✔ Textura suave y cremosa</li>
+            <li>✔ Sabor dulce y delicado</li>
+            <li>✔ Ideal con pan, galletas o yogur</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section" id="proceso">
+    <div class="container">
+      <div class="title reveal">
+        <span>Proceso</span>
+        <h2>Del ñame al frasco</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><b>1</b><h3>Lavado</h3><p>Se seleccionan, lavan y pelan los ñames.</p></div>
+        <div class="step reveal"><b>2</b><h3>Cocción</h3><p>Se cocinan hasta quedar tiernos.</p></div>
+        <div class="step reveal"><b>3</b><h3>Mezcla</h3><p>Se hace un puré y se agrega azúcar, limón y canela.</p></div>
+        <div class="step reveal"><b>4</b><h3>Envasado</h3><p>Se cocina a fuego lento y se envasa en frascos de vidrio.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section alt" id="contacto">
+    <div class="container">
+      <div class="title reveal">
+        <span>Contacto</span>
+        <h2>Escríbenos</h2>
+      </div>
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Tu nombre">
+          <small class="error" id="errorNombre"></small>
+        </div>
+        <div class="field">
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" placeholder="tucorreo@ejemplo.com">
+          <small class="error" id="errorCorreo"></small>
+        </div>
+        <div class="field">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+          <small class="error" id="errorMensaje"></small>
+        </div>
+        <button type="submit" class="btn btn-block" id="btnEnviar">Enviar mensaje</button>
+        <p class="success" id="formMsg" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p><strong>Dulce Ñame</strong> · Dulzura artesanal con raíces de nuestra tierra</p>
+  <p>© <span id="year"></span> Dulce Ñame. Todos los derechos reservados.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
